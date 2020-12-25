@@ -5,15 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Rodriguez</title>
     <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="js/script.js" />
+    <script src="js/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style/normalize.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style/normalize.css" />
   </head>
   <body>
-    <head> </head>
+    <header class="site-header">
+      <div class="contenedor">
+        <div class="barra">
+          <h1>Daniel Rodriguez</h1>
+          <nav class="navegacion">
+            <a href="#sobremi">sobre mi</a>
+            <a href="#proyectos">Proyectos</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="contenedor-principal contenedor">
+      <section class="portafolio grid" id="hero">
+        <p class="texto-hero">Desarrollador web</p>
+        <div class="imagen-hero">
+          <img src="img/hero_img.png" alt="imagen desarrollador web" />
+        </div>
+      </section>
+      <section class="sobremi grid" id="sobremi">
+        <div class="contenedor-sobremi">
+          <div class="titulo-sobremi">
+            <h4>Acerca de mi</h4>
+          </div>
+
+          <div class="img-sobremi">
+            <img
+              src="img/fotodan.jpeg"
+              alt="Daniel Rodriguez"
+              class="img-profile"
+            />
+          </div>
+          <div class="texto-sobremi">
+            <p class="p-sobremi">
+              Mi nombre es Daniel Rodriguez, tengo 20 años y soy un desarollador
+              web junior con una gran pasión por las nuevas tecnologias
+            </p>
+            <div class="bhv">
+              <a href="documentos/HV_Daniel.pdf" class="HV btn btn-primario"
+                >Descargar HV</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-sobremi2" id="sobremi2">
+          <div class="content">
+            <div class="skill">
+              <h4 class="h">HTML</h4>
+              <div class="html">
+                <span class="p-percent">80%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h4 class="h">Css</h4>
+              <div class="css">
+                <span class="p-percent">60%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h4 class="h">JavaScript</h4>
+              <div class="js">
+                <span class="p-percent">40%</span>
+              </div>
+            </div>
+            <div class="skill">
+              <h4 class="h">Php</h4>
+              <div class="php">
+                <span class="p-percent">40%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="subskill grid">
+        <div class="subskill1">
+          <div class="sub-skill">
+            <i class="fas fa-database fa-2x"></i>
+            <h4 class="servicio-encabezado">Mysql 40%</h4>
+          </div>
+          <div class="sub-skill">
+            <i class="fab fa-laravel fa-2x"></i>
+            <h4 class="servicio-encabezado">Laravel 30%</h4>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
+  <script
+    src="https://kit.fontawesome.com/e6348e1913.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
 </html>
