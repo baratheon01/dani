@@ -15,3 +15,18 @@ $(window).on('scroll', function(){
     }
     
   });
+
+
+  var dropdown = document.querySelector("nav .dropdown");
+     var button = document.querySelector("nav .menu");
+
+     function menu(){
+         if(dropdown.style.display === "none"){
+
+             dropdown.style.display = "block";
+             }
+             else{
+                 dropdown.style.display = "none";
+             }
+         
+     }
